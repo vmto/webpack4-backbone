@@ -2,13 +2,13 @@
  * Created by saturn on 2018/4/8.
  */
 
-require('./static/scss/index1.scss');
+require('./static/scss/index2.scss');
 require('jquery-easing');
 var Notes = require('./page/note/model/note');
 var NoteCollection = require('./page/note/model/notes');
 var NoteCollectionView = require('./page/note/view/notes');
 var SendView = require('./page/note/view/send');
-var BoxView = require('./page/index/view/box');
+var BoxView = require('./page/index2/view/box');
 var HeaderView = require('./page/layout/view/header');
 
 var Router = Backbone.Router.extend({

@@ -9,45 +9,56 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   entry: {
-    echarts: 'echarts',
-    app: './src/index.js'
+    echarts:'echarts',
+    index:'./src/index',
+    index2:'./src/index2'
   },
   output: {
     filename: './js/[name].main.js',
     chunkFilename: './js/[name].main.js',
     path: path.resolve(__dirname, 'dist')
   },
-  devServer: {
+  // devtool:'source-map',
+  devServer:{
     contentBase: path.resolve(__dirname, 'dist'),
-    host: 'localhost',
-    port: 8088,
+    host:'localhost',
+    port:8088,
     // hot:true,
-    open: true
+    open:true
   },
-  plugins: [
-    // new webpack.HotModuleReplacementPlugin(),
-    new ExtractTextPlugin('css/[name].css'),
+  plugins:[
     new cleanPlugin(['dist']),
+    new ExtractTextPlugin('css/[name].css'),
+    // new webpack.HotModuleReplacementPlugin()
     new htmlPlugin({
-      template: './src/index.html',
-      filename: 'index.html',
-      chunks: ['vendors', 'echarts', 'app'],
-      hash: true,
-      minify: {
-        collapseWhitespace: false
+      template:'./src/index.html',
+      filename:'index.html',
+      chunks:['vendors','echarts','index'],
+      hash:true,
+      minify:{
+        collapseWhitespace:false
+      }
+    }),
+    new htmlPlugin({
+      template:'./src/index2.html',
+      filename:'index2.html',
+      chunks:['vendors','echarts','index2'],
+      hash:true,
+      minify:{
+        collapseWhitespace:false
       }
     }),
     new webpack.ProvidePlugin({
-      $: 'jquery',
-      _: 'underscore',
-      Backbone: 'backbone',
-      echarts: 'echarts'
+      $:'jquery',
+      _:'underscore',
+      Backbone:'backbone',
+      echarts:'echarts'
     })
   ],
-  optimization: {
+  optimization:{
     //拆分公共包
-    splitChunks: {
-      cacheGroups: {
+    splitChunks:{
+      cacheGroups:{
         // 打包被引入2次以上的自定义组件
         // default:{
         //   minChunks: 2,
@@ -59,7 +70,7 @@ module.exports = {
         //   enforce: true
         // },
 
-        // 打包第三方组件：node_modules
+        // 第三方组件
         vendors: {
           test: /[\\/]node_modules[\\/]/,
           priority: -10,
@@ -69,8 +80,8 @@ module.exports = {
           enforce: true
         },
 
-        // 打包指定组件
-        echarts: {
+        // 指定组件
+        echarts:{
           test: "echarts",
           priority: 1,
           chunks: "initial",
@@ -88,18 +99,18 @@ module.exports = {
       },
       {
         test: /\.(css)$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: ['css-loader', 'postcss-loader'],
-          publicPath: '../'
+        use:ExtractTextPlugin.extract({
+          fallback:'style-loader',
+          use: ['css-loader'],
+          publicPath:'../'
         })
       },
       {
         test: /\.(scss|sass)$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: ['css-loader', 'sass-loader'],
-          publicPath: '../'
+        use:ExtractTextPlugin.extract({
+          fallback:'style-loader',
+          use: ['css-loader','sass-loader','postcss-loader'],
+          publicPath:'../'
         })
       },
       {
