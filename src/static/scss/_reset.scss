@@ -1,0 +1,59 @@
+html, body, div, img, span, ol, ul, li, dl, dt, dd, em, a, p, i,
+small, strong, label, sub, sup, h1, h2, h3, h4, h5, h6,
+iframe, form, table, tbody, td, tfoot, th, thead, tr,
+object, audio, video, canvas, code, pre,
+footer, header, menu, nav, section, article, aside, details, figcaption, figure {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline
+}
+
+footer, header, menu, nav, section, article, aside, details, figcaption, figure {
+  display: block
+}
+
+body {
+  line-height: 1
+}
+
+ol, ul {
+  list-style: none
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0
+}
+
+body {
+  color: #666;
+  font-family: "Microsoft YaHei",STHei, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px
+}
+
+a {
+  color: #5079d9;
+  cursor: pointer;
+  text-decoration: none;
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease
+}
+
+a:hover {
+  color: #406dd6
+}
+
+input, select {
+  font-family: "Microsoft YaHei",STHei, "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+textarea,
+input:focus {
+  outline: 0;
+  padding: 0;
+}

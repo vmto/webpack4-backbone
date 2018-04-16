@@ -1,0 +1,57 @@
+.note-list,
+.note-text {
+  margin: 10px auto;
+  max-width: 60%;
+  border: 1px solid #eee;
+}
+
+.note-list {
+  min-height: 40px;
+  li {
+    line-height: 40px;
+    text-indent: 1%;
+    color: #fff;
+    border-bottom: 1px dashed #ccc;
+    position: relative;
+  }
+  li:last-child {
+    border: none;
+  }
+  li:hover {
+    span {
+      color: #f90;
+    }
+    a {
+      color: #f90;
+    }
+  }
+  a {
+    color: #fff;
+    line-height: 40px;
+    position: absolute;
+    right: 5%;
+    top: 0;
+  }
+  a:hover {
+    color: #f90;
+  }
+}
+
+.note-msg {
+  display: block;
+  width: 98%;
+  margin: 1%;
+  line-height: 30px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  background: transparent;
+}
+
+.note-send {
+  display: block;
+  margin: 10px auto;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}

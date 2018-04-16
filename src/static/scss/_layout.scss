@@ -1,0 +1,140 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+
+.app,
+.app-page,
+.map-body,
+.note-body,
+.video-body,
+.tenant-body,
+.public-body{
+  height: 100%;
+}
+
+.app {
+  width: 500%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.app-page {
+  width: 20%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.app-container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.page-header {
+  width: 100%;
+  height: 70px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  background: rgba(0, 0, 0, .1);
+  background-image: url(../img/bg_header.png);
+  background-repeat: repeat-x;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  .logo {
+    line-height: 40px;
+    text-indent: 40px;
+    position: absolute;
+    left: 0;
+    top:0;
+  }
+  .logo:after {
+    content: ' ';
+    width: 20px;
+    height: 19px;
+    background-image: url(../img/bg_logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .user {
+    padding: 0 30px;
+    line-height: 40px;
+    background-image: url(../img/bg_user.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    position: absolute;
+    right: 20px;
+    top:0;
+  }
+  .nav {
+    width: 100%;
+    background: rgba(0, 0, 0, .2);
+    background-image: url(../img/bg_header.png);
+    background-repeat: repeat-x;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    z-index: 100;
+    a {
+      float: left;
+      width: 120px;
+      line-height: 30px;
+      text-align: center;
+      font-size: 13px;
+      color: #e6e6e6;
+      border-right: 1px solid #333;
+      position: relative;
+    }
+    a:hover {
+      color: #56bfec;
+      background: rgba(0, 0, 0, .2);
+    }
+    a:hover .home{
+      background-image: url(../img/icon_home.png);
+    }
+    i {
+      width: 16px;
+      height: 16px;
+      background-repeat: no-repeat;
+      background-position: left center;
+      position: absolute;
+      left: 10px;
+      top: 6px;
+    }
+    .home {
+      background-image: url(../img/icon_home2.png);
+    }
+  }
+}
+
+.page-home .app-container,
+.page-note .app-container,
+.page-video .app-container,
+.page-tenant .app-container {
+  padding-top: 70px;
+  height: -webkit-calc(100% - 70px);
+  height: -moz-calc(100% - 70px);
+  height: calc(100% - 70px);
+}
+
+.map-body{
+  background-image: url(../img/map.png);
+  background-repeat: no-repeat;
+}
+.page-map .page-header{
+  background: rgba(0, 0, 0, .4);
+}
