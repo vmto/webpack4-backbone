@@ -1,7 +1,7 @@
 /**
  * Created by saturn on 2018/4/8.
  */
-var html = require('../html/note-ul-li.htm');
+var html = require('../html/note-ul-li');
 
 var NoteView = Backbone.View.extend({
   tagName: 'li',

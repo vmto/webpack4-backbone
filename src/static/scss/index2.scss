@@ -1,9 +1,11 @@
 @import "reset";
 @import "public";
-@import "layout";
+
+/*!layout*/
+@import "index2_layout";
 
 /*!home*/
-@import "home";
+@import "index2_home";
 
 /*!notes*/
 @import "note";

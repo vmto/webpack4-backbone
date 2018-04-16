@@ -21,11 +21,9 @@ module.exports = {
     contentBase: path.resolve(__dirname, 'dist'),
     host: 'localhost',
     port: 8088,
-    // hot:true,
     open: true
   },
   plugins: [
-    // new webpack.HotModuleReplacementPlugin(),
     new ExtractTextPlugin('css/[name].css'),
     new cleanPlugin(['dist']),
     new htmlPlugin({
@@ -48,18 +46,7 @@ module.exports = {
     //拆分公共包
     splitChunks: {
       cacheGroups: {
-        // 打包被引入2次以上的自定义组件
-        // default:{
-        //   minChunks: 2,
-        //   priority: -20,
-        //   reuseExistingChunk: true,
-        //
-        //   chunks: "initial",
-        //   name: "common",
-        //   enforce: true
-        // },
-
-        // 打包第三方组件：node_modules
+        // 第三方组件
         vendors: {
           test: /[\\/]node_modules[\\/]/,
           priority: -10,
@@ -69,7 +56,7 @@ module.exports = {
           enforce: true
         },
 
-        // 打包指定组件
+        // 指定组件
         echarts: {
           test: "echarts",
           priority: 1,
@@ -115,5 +102,13 @@ module.exports = {
         ]
       }
     ]
+  },
+  resolve: {
+    // 免后缀
+    extensions: ['.js', '.htm', '.json'],
+    // 别名
+    alias: {
+
+    }
   }
 };

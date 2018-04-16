@@ -1,7 +1,7 @@
 /**
  * Created by saturn on 2018/4/8.
  */
-var html = require('../html/header.htm');
+var html = require('../html/header');
 
 var HeaderView = Backbone.View.extend({
   el: '.page-header',

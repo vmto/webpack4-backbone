@@ -4,7 +4,7 @@
 var Notes = require('../model/note');
 var NoteCollection = require('../model/notes');
 var NoteCollectionView = require('../view/notes');
-var html = require('../html/note.htm');
+var html = require('../html/note');
 
 var SendView = Backbone.View.extend({
   el: '#noteText',
