@@ -3457,9 +3457,13 @@ jquery-easing@0.0.1:
   dependencies:
     jquery "*"
 
-jquery@*, jquery@^2.2.4:
+jquery@*:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-2.2.4.tgz#2c89d6889b5eac522a7eea32c14521559c6cbf02"
+
+jquery@1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-1.12.0.tgz#44653be4e3e4628b106bf2141dfd10fbca6021ef"
 
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.4.3"
