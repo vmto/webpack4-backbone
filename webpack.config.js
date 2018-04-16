@@ -115,5 +115,13 @@ module.exports = {
         ]
       }
     ]
+  },
+  resolve: {
+    // 免后缀
+    extensions: ['.js', '.htm', '.json'],
+    // 别名
+    alias: {
+
+    }
   }
 };
