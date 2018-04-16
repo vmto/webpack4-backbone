@@ -9,7 +9,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   entry: {
-    echarts: 'echarts',
+    echarts: 'echarts/lib/echarts',
     app: './src/index.js'
   },
   output: {
@@ -32,14 +32,14 @@ module.exports = {
       chunks: ['vendors', 'echarts', 'app'],
       hash: true,
       minify: {
-        collapseWhitespace: false
+        collapseWhitespace: true
       }
     }),
     new webpack.ProvidePlugin({
       $: 'jquery',
       _: 'underscore',
       Backbone: 'backbone',
-      echarts: 'echarts'
+      echarts: 'echarts/lib/echarts'
     })
   ],
   optimization: {

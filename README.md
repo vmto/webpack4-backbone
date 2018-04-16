@@ -121,6 +121,65 @@ module: {
 }
 ````
 
+#### echarts模块化，告别700kb+
+> before：700k VS after:250k+90k
+````bash
+// webpack.config.js
+entry: {
+  echarts: 'echarts/lib/echarts',
+}
+
+plugins: [
+  new webpack.ProvidePlugin({
+    echarts: 'echarts/lib/echarts'
+  })
+]
+
+optimization: {
+  //拆分公共包
+  splitChunks: {
+    cacheGroups: {
+      // 指定组件
+      echarts: {
+        test: "echarts",
+        priority: 1,
+        chunks: "initial",
+        name: "echarts",
+        enforce: true
+      }
+    }
+  }
+}
+
+// index.js
+require('echarts/lib/component/title');       // 标题
+require('echarts/lib/component/tooltip');     // 提示框
+require('echarts/lib/component/legend');      // 标签
+require('echarts/lib/chart/bar');             // 柱状图
+require('echarts/lib/chart/line');            // 折线图
+require('echarts/lib/chart/pie');             // 折线图
+
+var v1 = echarts.init(this.$el.find('.v1-bd')[0]);
+var v2 = echarts.init(this.$el.find('.v2-bd')[0]);
+var arrEl = [];
+arrEl.push(v1);
+arrEl.push(v2);
+
+_.each(arrEl,function (item) {
+  item.showLoading({
+    text: '加载中...',
+    color: '#00c4ff',
+    textColor: '#fff',
+    maskColor: 'rgba(255,255,255,.1)'
+  });
+});
+
+v1.setOption(opt);
+v2.setOption(opt2);
+
+v1.hideLoading();
+v2.hideLoading();
+````
 
 
 

@@ -2,14 +2,21 @@
  * Created by saturn on 2018/4/8.
  */
 
-require('./static/scss/index1.scss');
+require('./static/scss/index.scss');
 require('jquery-easing');
-var Notes = require('./page/note/model/note');
-var NoteCollection = require('./page/note/model/notes');
-var NoteCollectionView = require('./page/note/view/notes');
-var SendView = require('./page/note/view/send');
-var BoxView = require('./page/index/view/box');
-var HeaderView = require('./page/layout/view/header');
+
+var HeaderView = require('./page/app/view/header');
+var HomeView = require('./page/_home/view/body');
+var MapView = require('./page/_map/view/body');
+
+var Notes = require('./page/_note/model/note');
+var NoteCollection = require('./page/_note/model/notes');
+var NoteCollectionView = require('./page/_note/view/notes');
+var NoteSendView = require('./page/_note/view/send');
+
+var PublicView = require('./page/_public/view/body');
+var TenantView = require('./page/_tenant/view/body');
+var VideoView = require('./page/_video/view/body');
 
 var Router = Backbone.Router.extend({
   routes: {
@@ -51,13 +58,16 @@ $(function () {
   Backbone.history.start();  // 开启历史记录
 
   new HeaderView();  // header
-  new BoxView();    // home
+  new HomeView();    // home
+  new MapView();     // Map
 
   var note1 = new Notes({msg: '111111'});
   var note2 = new Notes({msg: '222222'});
-
   var noteCollection = new NoteCollection([note1, note2]);  // 实例化集合
   new NoteCollectionView({collection: noteCollection});     // 实例化集合视图
+  new NoteSendView(); // 点击事件
 
-  new SendView(); // 点击事件
+  new PublicView();  // Public
+  new TenantView();  // Tenant
+  new VideoView();   // Video
 });
