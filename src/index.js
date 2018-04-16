@@ -3,8 +3,7 @@
  */
 
 require('./static/scss/app.scss');
-var $ = require('jquery');
-var easing = require('jquery-easing');
+require('jquery-easing');
 var Backbone = require('backbone');
 var Notes = require('./page/note/model/note');
 var NoteCollection = require('./page/note/model/notes');
@@ -16,9 +15,9 @@ var HeaderView = require('./page/layout/view/header');
 var Router = Backbone.Router.extend({
   routes: {
     "home": "pageHome",
+    "note": "pageNote",
     "map": "pageMap",
     "map/:id": "pageMap",
-    "note": "pageNote",
     "video": "pageVideo",
     "tenant": "pageTenant",
     "public": "pagePublic"
@@ -29,11 +28,11 @@ var Router = Backbone.Router.extend({
   pageHome: function () {
     $('.app').stop().animate({left: 0}, 600, 'easeOutQuart');
   },
-  pageMap: function (id) {
+  pageNote: function (id) {
     $('.app').stop().animate({left: '-100%'}, 600, 'easeOutQuart');
     if (typeof id === "string" && id.length === 6) {}
   },
-  pageNote: function (id) {
+  pageMap: function (id) {
     $('.app').stop().animate({left: '-200%'}, 600, 'easeOutQuart');
     if (typeof id === "string" && id.length === 6) {}
   },
