@@ -157,7 +157,7 @@ require('echarts/lib/component/tooltip');     // 提示框
 require('echarts/lib/component/legend');      // 标签
 require('echarts/lib/chart/bar');             // 柱状图
 require('echarts/lib/chart/line');            // 折线图
-require('echarts/lib/chart/pie');             // 折线图
+require('echarts/lib/chart/pie');             // 饼图
 
 var v1 = echarts.init(this.$el.find('.v1-bd')[0]);
 var v2 = echarts.init(this.$el.find('.v2-bd')[0]);
@@ -177,8 +177,9 @@ _.each(arrEl,function (item) {
 v1.setOption(opt);
 v2.setOption(opt2);
 
-v1.hideLoading();
-v2.hideLoading();
+_.each(arrEl, function (item) {
+  item.hideLoading();
+});
 ````
 
 

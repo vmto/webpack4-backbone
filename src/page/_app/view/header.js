@@ -4,7 +4,7 @@
 var html = require('../html/header');
 
 var HeaderView = Backbone.View.extend({
-  el: '.page-header',
+  el: '.page-hd',
   initialize: function () {
     this.template = _.template(html);
     this.render();

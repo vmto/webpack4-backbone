@@ -1,3 +1,91 @@
-.video-body{
+.video-bd{
+  .view {
+    background: #0f456b;
+    position: absolute;
+  }
+  .v1 {
+    width: 49.25%;
+    height: 60.75%;
+    left: .5%;
+    top: 1%;
+    .v-hd:before {
+      background-image: url("../icon/num.png");
+    }
+  }
 
+  .v2 {
+    width: 49.25%;
+    height: 60.75%;
+    right: .5%;
+    top: 1%;
+    .v-hd:before {
+      background-image: url("../icon/num1.png");
+    }
+  }
+
+  .v3 {
+    width: 49.25%;
+    height: 36%;
+    left: .5%;
+    bottom: 1%;
+    .v-hd:before {
+      background-image: url("../icon/num2.png");
+    }
+  }
+
+  .v4 {
+    width: 49.25%;
+    height: 36%;
+    right: .5%;
+    bottom: 1%;
+    .v-hd:before {
+      background-image: url("../icon/num3.png");
+    }
+  }
+
+  .v-hd {
+    line-height: 40px;
+    font-size: 16px;
+    text-indent: 40px;
+    color: #fff;
+    background: #093c5b;
+  }
+
+  .v-bd{
+    height: calc(100% - 40px);
+  }
+
+  .v-hd:before {
+    content: ' ';
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+  }
+
+  .v-hd-nav {
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    li {
+      float: left;
+    }
+    a {
+      display: block;
+      padding: 0 10px;
+      text-indent: initial;
+      text-align: center;
+      font-size: 14px;
+      color: #fff;
+    }
+    a.active,
+    a:hover{
+      background: #0f456b;
+    }
+  }
 }

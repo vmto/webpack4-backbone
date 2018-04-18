@@ -5,11 +5,15 @@ var path = require('path');
 var webpack = require('webpack');
 var htmlPlugin = require('html-webpack-plugin');
 var cleanPlugin = require('clean-webpack-plugin');
+var SpritesmithPlugin = require('webpack-spritesmith');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var ExtractCss = new ExtractTextPlugin('css/[name].css');
+var ExtractScss = new ExtractTextPlugin('css/scss.css');
 
 module.exports = {
   entry: {
     echarts: 'echarts/lib/echarts',
+    d3: 'd3',
     app: './src/index.js'
   },
   output: {
@@ -24,12 +28,13 @@ module.exports = {
     open: true
   },
   plugins: [
-    new ExtractTextPlugin('css/[name].css'),
+    ExtractCss,
+    ExtractScss,
     new cleanPlugin(['dist']),
     new htmlPlugin({
       template: './src/index.html',
       filename: 'index.html',
-      chunks: ['vendors', 'echarts', 'app'],
+      chunks: ['vendors', 'echarts', 'd3', 'app'],
       hash: true,
       minify: {
         collapseWhitespace: true
@@ -39,7 +44,27 @@ module.exports = {
       $: 'jquery',
       _: 'underscore',
       Backbone: 'backbone',
+      d3: 'd3',
       echarts: 'echarts/lib/echarts'
+    }),
+    new SpritesmithPlugin({
+      src: {       // 目标小图标
+        cwd: path.resolve(__dirname, './src/static/icon'),
+        glob: '*.png'
+      },
+      target: {    // 输出文件及样式文件
+        image: path.resolve(__dirname, './dist/img/sprite.png'),
+        css: path.resolve(__dirname, './dist/css/sprite.css')
+      },
+      apiOptions: {// 样式图地址
+        cssImageRef: '../img/sprite.png'
+      },
+      spritesmithOptions: {
+        algorithm: 'top-down',
+        type: 'retina', // 'retina' and 'normal'
+        normalName: 'normalName',
+        retinaName: 'retinaName'
+      }
     })
   ],
   optimization: {
@@ -63,6 +88,13 @@ module.exports = {
           chunks: "initial",
           name: "echarts",
           enforce: true
+        },
+        d3: {
+          test: "d3",
+          priority: 1,
+          chunks: "initial",
+          name: "d3",
+          enforce: true
         }
       }
     }
@@ -74,19 +106,18 @@ module.exports = {
         loader: "html-loader"
       },
       {
-        test: /\.(css)$/,
-        use: ExtractTextPlugin.extract({
+        test: /\.css$/,
+        use: ExtractCss.extract({
           fallback: 'style-loader',
-          use: ['css-loader', 'postcss-loader'],
-          publicPath: '../'
+          use: ['css-loader', 'postcss-loader']
         })
       },
       {
-        test: /\.(scss|sass)$/,
-        use: ExtractTextPlugin.extract({
+        test: /\.(sass|scss)$/,
+        use: ExtractScss.extract({
           fallback: 'style-loader',
-          use: ['css-loader', 'sass-loader'],
-          publicPath: '../'
+          publicPath: '../',
+          use: ['css-loader', 'sass-loader', 'postcss-loader']
         })
       },
       {
@@ -107,8 +138,6 @@ module.exports = {
     // 免后缀
     extensions: ['.js', '.htm', '.json'],
     // 别名
-    alias: {
-
-    }
+    alias: {}
   }
 };

@@ -2,10 +2,11 @@
  * Created by saturn on 2018/4/8.
  */
 
+// require('./static/css/index.css');
 require('./static/scss/index.scss');
 require('jquery-easing');
 
-var HeaderView = require('./page/app/view/header');
+var HeaderView = require('./page/_app/view/header');
 var HomeView = require('./page/_home/view/body');
 var MapView = require('./page/_map/view/body');
 

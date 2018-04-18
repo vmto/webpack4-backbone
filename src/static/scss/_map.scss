@@ -1,7 +1,14 @@
-.page-map .page-header {
-  background: rgba(0, 0, 0, .4);
-}
-.map-body{
-  background-image: url(../img/map.png);
-  background-repeat: no-repeat;
+.page-map {
+  position: static !important;
+  height: 100% !important;
+  padding-top: 0 !important;
+  .page-hd {
+    background: rgba(0, 0, 0, .4);
+  }
+  .map-bd {
+    padding-top: 50px;
+    height: calc(100% - 50px);
+    background-image: url(../img/map.png);
+    background-repeat: no-repeat;
+  }
 }

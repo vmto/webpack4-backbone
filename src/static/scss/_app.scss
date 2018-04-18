@@ -8,18 +8,9 @@ body {
   overflow: hidden;
 }
 
-.app,
-.app-page,
-.map-body,
-.note-body,
-.video-body,
-.tenant-body,
-.public-body {
-  height: 100%;
-}
-
 .app {
   width: 500%;
+  height: 100%;
   position: absolute;
   left: 0;
   top: 0;
@@ -27,20 +18,20 @@ body {
 
 .app-page {
   width: 20%;
+  height: 100%;
   float: left;
   position: relative;
   overflow: hidden;
 }
 
-.app-container {
-  height: 100%;
-  overflow: hidden;
-}
-.app-container >div{
+.page-wrap {
+  padding-top: 50px;
+  height: calc(100% - 50px);
+  position: relative;
   overflow: hidden;
 }
 
-.page-header {
+.page-hd {
   width: 100%;
   height: 50px;
   font-weight: 600;
@@ -55,6 +46,7 @@ body {
     text-indent: 70px;
     font-size: 20px;
     color: #e9b700;
+    cursor: pointer;
     position: relative;
   }
   .logo:after {
@@ -84,20 +76,16 @@ body {
     a:hover {
       color: #56bfec;
     }
-    a:hover .home {
-      background-image: url(../img/icon_home.png);
+    a:hover .icon-home2 {
+      background-position: 0px 0;
     }
     i {
       width: 16px;
       height: 16px;
       background-repeat: no-repeat;
-      background-position: left center;
       position: absolute;
       left: 10px;
       top: 17px;
-    }
-    .home {
-      background-image: url(../img/icon_home2.png);
     }
   }
   .user {
@@ -106,20 +94,18 @@ body {
     line-height: 50px;
     font-size: 16px;
     color: #fff;
-    background-image: url(../img/bg_user.png);
-    background-repeat: no-repeat;
-    background-position: left center;
+    cursor: pointer;
+    position: relative;
+  }
+  .icon-user {
+    position: absolute;
+    left: 0;
+    top: 12px
   }
 }
 
-.page-home .app-container,
-.page-note .app-container,
-.page-public .app-container,
-.page-tenant .app-container,
-.page-video .app-container {
-  padding-top: 50px;
-  height: -webkit-calc(100% - 50px);
-  height: -moz-calc(100% - 50px);
-  height: calc(100% - 50px);
+.page-bd {
+  height: 100%;
   position: relative;
+  overflow: hidden;
 }

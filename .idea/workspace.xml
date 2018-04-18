@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17480b0e-88a9-448c-93ed-e1bc570feaf5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/_home/view/body.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/_home/view/body.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="body.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/page/_home/view/body.js">
+        <entry file="file://$PROJECT_DIR$/src/page/_video/view/body.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="1026">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -33,41 +31,43 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>video</find>
-      <find>note</find>
-      <find>88</find>
-      <find>this.$el.find('.v0')</find>
-      <find>by</find>
-      <find>base</find>
-      <find>chunks</find>
-      <find>&quot;object&quot;==typeof exports&amp;&amp;&quot;undefined&quot;</find>
-      <find>typeof module</find>
-      <find>exports</find>
-      <find>dataTool</find>
-      <find>geoJson</find>
-      <find>geoJson:</find>
-      <find>ProvidePlugin</find>
-      <find>jquery</find>
-      <find>resolve</find>
-      <find>easing</find>
-      <find>$</find>
-      <find>home</find>
-      <find>homeBody</find>
-      <find>publicBody</find>
-      <find>tenant</find>
+      <find>body</find>
+      <find>icon</find>
+      <find>user</find>
       <find>app-container</find>
-      <find>map-body</find>
-      <find>tooltip</find>
+      <find>page-map</find>
+      <find>home-body</find>
+      <find>page-wrap</find>
+      <find>app-page</find>
+      <find>page-bd</find>
+      <find>opt4</find>
       <find>grid</find>
-      <find>legend</find>
-      <find>echarts</find>
-      <find>series</find>
-      <find>snap</find>
+      <find>calculable</find>
+      <find>xAxis</find>
+      <find>app</find>
+      <find>inNode</find>
+      <find>myChart</find>
+      <find>getPieSeries</find>
+      <find>maxSize4Pin</find>
+      <find>max</find>
+      <find>convertData</find>
+      <find>geoCoordMap</find>
+      <find>shandong</find>
+      <find>jiangxi</find>
+      <find>v4-bd</find>
+      <find>option</find>
+      <find>opt9</find>
+      <find>opt7</find>
+      <find>2.5</find>
+      <find>opt09</find>
+      <find>tooltip</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,57 +81,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/static/scss/_index1_layout.scss" />
-        <option value="$PROJECT_DIR$/src/static/scss/_index1_home.scss" />
-        <option value="$PROJECT_DIR$/postcss.config.js" />
-        <option value="$PROJECT_DIR$/src/index2.html" />
-        <option value="$PROJECT_DIR$/src/page/index2/view/opt2.js" />
-        <option value="$PROJECT_DIR$/src/page/index2/html/box.htm" />
-        <option value="$PROJECT_DIR$/src/static/scss/_index2_home.scss" />
-        <option value="$PROJECT_DIR$/src/page/index2/view/opt.js" />
-        <option value="$PROJECT_DIR$/src/page/index/view/opt.js" />
-        <option value="$PROJECT_DIR$/src/page/index2/view/box.js" />
-        <option value="$PROJECT_DIR$/src/page/index/view/box.js" />
-        <option value="$PROJECT_DIR$/dist/js/common.main.js" />
-        <option value="$PROJECT_DIR$/dist/js/vendors.main.js" />
-        <option value="$PROJECT_DIR$/dist/js/index.main.js" />
-        <option value="$PROJECT_DIR$/dist/js/index2.main.js" />
-        <option value="$PROJECT_DIR$/src/page/note/model/note.js" />
-        <option value="$PROJECT_DIR$/src/page/note/model/notes.js" />
-        <option value="$PROJECT_DIR$/src/page/note/view/notes.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/dist/js/app.main.js" />
-        <option value="$PROJECT_DIR$/src/index2.js" />
         <option value="$PROJECT_DIR$/src/page/layout/view/header.js" />
         <option value="$PROJECT_DIR$/src/page/note/view/note.js" />
         <option value="$PROJECT_DIR$/src/page/note/view/send.js" />
         <option value="$PROJECT_DIR$/src/static/scss/index2.scss" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/page/home/view/box.js" />
         <option value="$PROJECT_DIR$/src/page/home/view/tenant.js" />
         <option value="$PROJECT_DIR$/src/page/tenant/view/tenant.js" />
         <option value="$PROJECT_DIR$/src/page/public/view/body.js" />
         <option value="$PROJECT_DIR$/src/page/video/view/body.js" />
-        <option value="$PROJECT_DIR$/src/page/_map/html/body.htm" />
         <option value="$PROJECT_DIR$/src/static/scss/_layout.scss" />
-        <option value="$PROJECT_DIR$/src/static/scss/app.scss" />
         <option value="$PROJECT_DIR$/src/static/scss/_reset.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/dist/index.html" />
+        <option value="$PROJECT_DIR$/dist/css/app.css" />
+        <option value="$PROJECT_DIR$/postcss.config.js" />
+        <option value="$PROJECT_DIR$/dist/css/scss.css" />
+        <option value="$PROJECT_DIR$/src/static/css/app.css" />
+        <option value="$PROJECT_DIR$/src/static/scss/app.scss" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/static/css/index.css" />
+        <option value="$PROJECT_DIR$/src/page/app/html/header.htm" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/static/scss/index.scss" />
+        <option value="$PROJECT_DIR$/src/page/_home/html/body.htm" />
+        <option value="$PROJECT_DIR$/src/page/_map/html/body.htm" />
+        <option value="$PROJECT_DIR$/src/page/_app/view/header.js" />
+        <option value="$PROJECT_DIR$/src/page/_home/view/body.js" />
+        <option value="$PROJECT_DIR$/src/page/_map/view/body.js" />
+        <option value="$PROJECT_DIR$/src/page/_public/view/body.js" />
+        <option value="$PROJECT_DIR$/src/static/scss/_home.scss" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/static/scss/_map.scss" />
+        <option value="$PROJECT_DIR$/src/static/scss/_app.scss" />
         <option value="$PROJECT_DIR$/src/static/scss/_public.scss" />
         <option value="$PROJECT_DIR$/src/static/scss/_tenant.scss" />
         <option value="$PROJECT_DIR$/src/static/scss/_video.scss" />
-        <option value="$PROJECT_DIR$/src/static/scss/_map.scss" />
-        <option value="$PROJECT_DIR$/src/static/scss/_app.scss" />
-        <option value="$PROJECT_DIR$/src/static/scss/index.scss" />
         <option value="$PROJECT_DIR$/src/static/scss/_note.scss" />
-        <option value="$PROJECT_DIR$/src/page/_home/html/body.htm" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/page/_map/view/body.js" />
-        <option value="$PROJECT_DIR$/src/static/scss/_home.scss" />
         <option value="$PROJECT_DIR$/src/page/echarts/opt.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/page/_tenant/view/body.js" />
+        <option value="$PROJECT_DIR$/src/page/echarts/opt3.js" />
+        <option value="$PROJECT_DIR$/src/page/echarts/opt4.js" />
+        <option value="$PROJECT_DIR$/src/page/echarts/opt5.js" />
+        <option value="$PROJECT_DIR$/src/page/echarts/opt7.js" />
+        <option value="$PROJECT_DIR$/src/page/echarts/data2.json" />
+        <option value="$PROJECT_DIR$/src/page/echarts/opt8.js" />
+        <option value="$PROJECT_DIR$/src/page/_video/html/body.htm" />
+        <option value="$PROJECT_DIR$/src/page/echarts/opt9.js" />
+        <option value="$PROJECT_DIR$/src/page/echarts/opt6.js" />
+        <option value="$PROJECT_DIR$/src/page/_video/view/body.js" />
+        <option value="$PROJECT_DIR$/src/page/echarts/opt09.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/page/_home/view/body.js" />
       </list>
     </option>
   </component>
@@ -149,9 +149,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="431" />
-    <option name="y" value="67" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="302" />
+    <option name="y" value="2" />
     <option name="width" value="1936" />
     <option name="height" value="1066" />
   </component>
@@ -195,6 +195,35 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="webpack45_backbone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack45_backbone" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="_video" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack45_backbone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack45_backbone" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="_video" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack45_backbone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack45_backbone" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="_video" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webpack45_backbone" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webpack45_backbone" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -205,6 +234,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../webpack4-backbone" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="C:\Users\saturn\Desktop\webpack45_backbone\node_modules\prettier" />
@@ -222,11 +252,11 @@
       <recent name="C:\Users\saturn\Desktop\webpack45_backbone\src\page\tenant" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\saturn\Desktop\webpack45_backbone\src\page\echarts" />
       <recent name="C:\Users\saturn\Desktop\webpack45_backbone\src\static\scss" />
       <recent name="C:\Users\saturn\Desktop\webpack45_backbone\src\page" />
       <recent name="C:\Users\saturn\Desktop\webpack45_backbone\src\page\index2\view" />
       <recent name="C:\Users\saturn\Desktop\webpack45_backbone" />
-      <recent name="C:\Users\saturn\Desktop\webpack45_backbone\src\page\home\html" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -253,7 +283,7 @@
       <updated>1523502131542</updated>
       <workItem from="1523502133475" duration="7941000" />
       <workItem from="1523519824555" duration="6418000" />
-      <workItem from="1523526779706" duration="82949000" />
+      <workItem from="1523526779706" duration="115694000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1523503779186</created>
@@ -472,11 +502,60 @@
       <option name="project" value="LOCAL" />
       <updated>1523880895892</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="update">
+      <created>1523884760622</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1523884760622</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update">
+      <created>1523937754697</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1523937754697</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update">
+      <created>1523941273131</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1523941273131</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update">
+      <created>1523941443677</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1523941443677</updated>
+    </task>
+    <task id="LOCAL-00036" summary="update">
+      <created>1523947878630</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1523947878630</updated>
+    </task>
+    <task id="LOCAL-00037" summary="update">
+      <created>1523955554661</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1523955554661</updated>
+    </task>
+    <task id="LOCAL-00038" summary="update">
+      <created>1523962710822</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1523962710822</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97308000" />
+    <option name="totallyTimeSpent" value="130053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -487,7 +566,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32893288" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" weight="0.40374038" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49946696" visible="true" weight="0.26292628" />
       <window_info anchor="right" id="FAQ Robot" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827292" />
       <window_info id="Project Explorer" order="2" />
@@ -517,100 +596,59 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/js/index2.main.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5481" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/index.main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3762">
-          <caret line="198" column="4" selection-start-line="198" selection-start-column="4" selection-end-line="198" selection-end-column="4" />
+        <state relative-caret-position="247">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_tenant/view/body.js">
+    <entry file="file://$PROJECT_DIR$/src/static/scss/_app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="76">
+          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/postcss.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_note/html/note-ul-li.htm">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/css/index1.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/app.main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2198">
-          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_note/model/notes.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index2.js">
+    <entry file="file://$PROJECT_DIR$/dist/css/scss.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="152">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/scss/index2.scss">
+    <entry file="file://$PROJECT_DIR$/dist/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state>
+          <caret column="4469" lean-forward="true" selection-start-column="4469" selection-end-column="4469" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/scss/_index2_home.scss">
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="50" column="7" lean-forward="true" selection-end-line="95" selection-end-column="1" />
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/scss/_index2_layout.scss">
+    <entry file="file://$PROJECT_DIR$/src/static/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="88" column="19" lean-forward="true" selection-end-line="128" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_note/model/note.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -621,51 +659,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_tenant/html/body.htm">
+    <entry file="file://$PROJECT_DIR$/dist/css/sprite.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/app/html/header.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/_map/html/body.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/_home/html/body.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_public/html/body.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_video/html/body.htm">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/echarts/opt2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_public/view/body.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/css/index2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1273" selection-start-column="1273" selection-end-column="1273" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_note/view/notes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_video/view/body.js">
+    <entry file="file://$PROJECT_DIR$/src/page/_app/view/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/_home/view/body.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/_map/view/body.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -676,20 +722,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/app/html/header.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_map/html/body.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/page/_note/view/send.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -697,66 +729,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/page/_note/model/note.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="38">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/_note/model/notes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/_note/html/note.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/_note/html/note-ul-li.htm">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/_note/view/notes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/_public/view/body.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/static/scss/_app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/scss/_reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/scss/_video.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/scss/_tenant.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="443">
+          <caret line="109" column="19" selection-start-line="109" selection-start-column="19" selection-end-line="109" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/static/scss/_public.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="38">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/scss/_map.scss">
+    <entry file="file://$PROJECT_DIR$/src/static/scss/_reset.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="291">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/scss/_note.scss">
+    <entry file="file://$PROJECT_DIR$/src/static/scss/_video.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="-968">
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/app.css">
+    <entry file="file://$PROJECT_DIR$/src/static/scss/_tenant.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="296" lean-forward="true" selection-start-line="296" selection-end-line="296" />
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -767,87 +805,146 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_map/view/body.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/static/scss/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/scss/_map.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/scss/_note.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/echarts/opt2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-474">
+          <caret line="34" column="7" lean-forward="true" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/echarts/opt5.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_home/html/body.htm">
+    <entry file="file://$PROJECT_DIR$/src/page/echarts/opt4.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#circle#0;n#svg#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/page/echarts/opt3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="361">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/vendors.main.js">
+    <entry file="file://$PROJECT_DIR$/src/page/echarts/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="38" column="181997" selection-start-line="38" selection-start-column="181990" selection-end-line="38" selection-end-column="181997" />
+        <state relative-caret-position="718">
+          <caret column="21329" selection-start-column="21329" selection-end-column="21329" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/echarts/data2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret column="32059" selection-start-column="32059" selection-end-column="32059" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/echarts/opt8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="185" column="20" selection-start-line="185" selection-start-column="12" selection-end-line="185" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/_tenant/html/body.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page/_tenant/view/body.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="-38">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/_video/html/body.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page/echarts/opt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="119" column="9" selection-start-line="119" selection-start-column="3" selection-end-line="119" selection-end-column="9" />
+        <state relative-caret-position="443">
+          <caret line="222" column="24" lean-forward="true" selection-end-line="222" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/src/page/echarts/opt7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/echarts/opt6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307">
+          <caret line="69" column="27" lean-forward="true" selection-start-line="69" selection-start-column="27" selection-end-line="69" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page/echarts/opt09.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2717">
+          <caret line="143" column="19" lean-forward="true" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2451">
-            <caret line="129" column="1" lean-forward="true" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
+          <first_editor relative-caret-position="418">
+            <caret line="178" lean-forward="true" selection-start-line="178" selection-end-line="178" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/page/_video/view/body.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page/_home/view/body.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        <state relative-caret-position="1026">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>

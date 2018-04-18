@@ -6,7 +6,7 @@ var opt2 = require('../../echarts/opt2');
 var html = require('../html/body');
 
 var BoxView = Backbone.View.extend({
-  el: '#publicBody',
+  el: '.public-bd',
   initialize: function () {
     this.template = _.template(html);
     this.render();
