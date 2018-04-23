@@ -24,9 +24,10 @@ body {
   overflow: hidden;
 }
 
+/*nav-1*/
+
 .page-wrap {
-  padding-top: 50px;
-  height: calc(100% - 50px);
+  height: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -77,7 +78,7 @@ body {
       color: #56bfec;
     }
     a:hover .icon-home2 {
-      background-position: 0px 0;
+      background-position: 0 -60px;
     }
     i {
       width: 16px;
@@ -104,8 +105,100 @@ body {
   }
 }
 
-.page-bd {
-  height: 100%;
-  position: relative;
-  overflow: hidden;
+/*nav-2*/
+
+.ui-header {
+  width: 100%;
+  height: 88px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.ui-title a{
+  display: inline-block;
+  line-height: 88px;
+  font-size: 34px;
+  font-weight: 600;
+  color: #fff;
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(40, 217, 255, 1)), to(rgba(40, 172, 255, 1)));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ui-title {
+  height: 88px;
+  text-align: center;
+}
+
+.weather {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  .location,
+  .degree {
+    float: left;
+    margin-left: 30px;
+  }
+  .icon {
+    float: left;
+    width: 50px;
+    height: 88px;
+    background-image: url(../img/weather.png);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+  }
+  .text {
+    float: left;
+    line-height: 88px;
+    font-size: 22px;
+    color: #fff;
+  }
+  .degree {
+    .icon {
+      background-position: 50px 0;
+    }
+  }
+}
+
+.time {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  span {
+    float: left;
+    color: #00c4ff;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  &.active {
+    span {
+      color: red;
+    }
+  }
+
+  .time-wrap {
+    line-height: 88px;
+  }
+  .tick {
+    padding-left: 10px;
+  }
+}
+
+.btn-back {
+  background-color: #4485f2;
+  border-radius: 22px;
+  position: absolute;
+  left: 100px;
+  top: 22px;
+  a {
+    display: block;
+    width: 100px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+  }
 }

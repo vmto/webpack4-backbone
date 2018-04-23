@@ -3,11 +3,14 @@
  */
 var opt = require('../../echarts/opt');
 var opt2 = require('../../echarts/opt2');
+var HeaderView = require('../view/header');
 var html = require('../html/body');
 
 var BoxView = Backbone.View.extend({
   el: '.map-bd',
   initialize: function () {
+    new HeaderView();
+
     this.template = _.template(html);
     this.render();
   },

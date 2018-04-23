@@ -23,7 +23,7 @@ module.exports = {
   },
   devServer: {
     contentBase: path.resolve(__dirname, 'dist'),
-    host: 'localhost',
+    host: '127.0.0.1',
     port: 8088,
     open: true
   },
@@ -42,6 +42,7 @@ module.exports = {
     }),
     new webpack.ProvidePlugin({
       $: 'jquery',
+      jQuery: 'jquery',
       _: 'underscore',
       Backbone: 'backbone',
       d3: 'd3',
