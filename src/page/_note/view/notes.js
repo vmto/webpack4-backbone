@@ -15,7 +15,7 @@ var NoteCollectionView = Backbone.View.extend({
   },
   addOne: function (note) {
     var noteView = new NoteView({model: note});   // ?
-    this.$el.append(noteView.render().el);
+    this.$el.append(noteView.render().$el);
   }
 });
 

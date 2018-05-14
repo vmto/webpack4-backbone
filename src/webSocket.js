@@ -4,15 +4,17 @@ var PATH = '${S_URL}';
 
 // 发送参数
 APP.wsData = {
-  type: '1',    // 1：业务一 2：业务二 3：业务xx
+  type: '1',    // 1：业务一 2：业务二
   reqType: '1', // 1：类型一 2：类型二
   payload: '{"isSend": "1"}'
 };
 
 // 发送数据
 APP.send = function (type, reqType) {
-  APP.wsData.type = type;
-  APP.wsData.reqType = reqType;
+  APP.wsData = {
+    type : type,
+    reqType : reqType
+  };
 
   WS.send(JSON.stringify(APP.wsData));
 };
@@ -35,8 +37,6 @@ if ('WebSocket' in window) {
   WS = new ReconnectingWebSocket("ws://" + document.location.host + PATH + "/websocket");
   WS.debug = true;
   WS.timeoutInterval = 5400;
-} else {
-  WS = new SockJS(PATH + '/websocket/socketjs');
 }
 
 // 连接成功建立的回调方法
@@ -58,10 +58,7 @@ WS.onerror = function (error) {
 
 // 连接关闭的回调方法
 WS.onclose = function () {
-  console.log("websocket.onclose","断开重连中...");
-  WS = new ReconnectingWebSocket("ws://" + window.location.host + PATH + "/websocket");
-  WS.debug = true;
-  WS.timeoutInterval = 5400;
+  console.log("websocket.onclose","连接已断开...");
 };
 
 // 关闭窗口时主动关闭websocket防止连接还没断开就关闭窗口（server端会抛异常）

@@ -55,8 +55,8 @@ var Router = Backbone.Router.extend({
 });
 
 $(function () {
-  window.router = new Router;                // 初始化路由
-  Backbone.history.start();  // 开启历史记录
+  window.router = new Router; // 初始化路由
+  Backbone.history.start();   // 开启历史记录
 
   new HeaderView();  // header
   new HomeView();    // home
